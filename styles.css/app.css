@@ -41,36 +41,32 @@ p {
 
 .navigation-links a {
   margin: 20px;
+}
+
+.primary-link {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-}
-
-.contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
 
-.about-link {
+primary-link:hover {
+  color: white;
+}
+
+secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
 
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
-.weather-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.yogurt-link {
+.contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -114,9 +110,9 @@ p {
   img {
     display: none;
   }
-}
-.project-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
+  .project-link {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
 }
